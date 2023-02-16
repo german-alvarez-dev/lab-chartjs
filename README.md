@@ -7,6 +7,9 @@ Los datos serán obtenidos mediante [axios](https://axios-http.com/) de la [API 
 ## Materiales
 Se provee la base de trabajo con ExpressJS asi como la vista de estadísticas y el tratamiento estético base.
 
+## Gráficos
+El objetivo del producto son los siguientes charts:
+
 ### Gráfico de barras
 Comparador de velocidad entre las cinco montañas rusas más rápidas (propiedad `speed`)
 
