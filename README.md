@@ -11,7 +11,7 @@ Se provee la base de trabajo con ExpressJS asi como la vista de estadísticas y 
 Comparador de velocidad entre las cinco montañas rusas más rápidas (propiedad `speed`)
 
 ### Gráfico de dougnut
-Comparador de altura (propiedad `height`) de todas las montañas rusas en tres clasificaciones: menos de 1000m, de 1000 a 1500m, más de 1500m
+Comparador de longitud (propiedad `length`) de todas las montañas rusas en tres clasificaciones: menos de 1000m, de 1000 a 1500m, más de 1500m
 
 ### Gráfico de área polar
 Comparador de países (propiedad `country`) de todas las montañas rusas en cuatro clasificaciones: EEUU, España, Japón y China
