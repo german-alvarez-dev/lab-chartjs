@@ -1,0 +1,27 @@
+<form action="/locations/create" method="POST">
+    <div class="mb-3">
+        <label for="name" class="form-label">Name of the place</label>
+        <input type="text" class="form-control" name="name">
+    </div>
+
+    <div class="mb-3">
+        <label for="type" class="form-label">Type of the place</label>
+        <select class="form-select" aria-label="Default select example" name="type">
+            <option selected>Open this select menu</option>
+            <option value="coffee shop">coffee shop</option>
+            <option value="bookstore">bookstore</option>
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label for="longitude" class="form-label">longitude</label>
+        <input type="texto" class="form-control" name="longitude">
+    </div>
+
+    <div class="mb-3">
+        <label for="latitude" class="form-label">latitude</label>
+        <input type="texto" class="form-control" name="latitude">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

@@ -1,17 +1,22 @@
+// ℹ️ Gets access to environment variables/settings
+// https://www.npmjs.com/package/dotenv
 require("dotenv").config();
 
-const express = require("express");
-const app = express();
+// ℹ️ Connects to the database
+require("./db");
 
+// Handles http requests (express is node js framework)
+const express = require("express");
+const hbs = require("hbs");
+const app = express();
 require("./config")(app);
 
-app.locals.appTitle = `Coasters stats!`;
+const capitalize = require("./utils/capitalize");
+const projectName = "lab-coffee-and-booka";
 
-const indexRoutes = require("./routes/index.routes");
-app.use("/", indexRoutes);
+app.locals.appTitle = `${capitalize(projectName)} created with IronLauncher`;
 
-const statsRoutes = require("./routes/stats.routes");
-app.use("/estadisticas", statsRoutes);
+require("./routes")(app)
 
 require("./error-handling")(app);
 
