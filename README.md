@@ -22,7 +22,7 @@ Comparador de países (propiedad `country`) de todas las montañas rusas en cuat
 ### Gráfico de radar
 Comparador de inversiones (propiedad `inversions`) de todas las montañas rusas con más de 5 inversiones
 
-### Gráfico de línea
+### Gráfico de barra + línea
 Comparador de velocidad (propiedad `speed` en gráfico de barra) con altura (propiedad `height` en gráfico de línea) de las primeras cinco montañas rusas de la API. Es necesario combinar dos `datasets`, indicando una propiedad `type` específica para variar uno de los dos.
 
 
